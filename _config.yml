@@ -2,7 +2,7 @@ title: "Carlos Esteban Ortiz Espitia"
 description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad | Apasionado por la analítica de datos y la optimización de procesos"
 name: "EyS Envios Colombia"
 #url: "https://carloseortize.github.io"  # reemplázalo por tu URL real
-remote_theme: "mmistakes/minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Navegación
 nav:
