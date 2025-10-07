@@ -3,7 +3,7 @@ description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | I
 name: "EyS Envios Colombia"
 #url: "https://carloseortize.github.io"  # reemplázalo por tu URL real
 baseurl: ""
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-minimal
 
 # Navegación
 nav:
