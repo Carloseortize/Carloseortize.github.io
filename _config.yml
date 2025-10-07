@@ -1,69 +1,21 @@
 title: "Carlos Esteban Ortiz Espitia"
-description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad | Apasionado por la analítica de datos y la optimización de procesos"
-name: "EyS Envios Colombia"
-#url: "https://carloseortize.github.io"  # reemplázalo por tu URL real
-theme: jekyll-theme-cayman
+description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad"
+theme: jekyll-theme-minimal
 
 # Navegación
-nav:
-  - title: "Inicio"
-    url: "/"
-  - title: "Proyectos"
-    url: "/projects/"
-  - title: "Sobre mí"
-    url: "/about/"
-  - title: "Contacto"
-    url: "/contact/"
+show_downloads: false
 
-# Estilo del tema
-minimal_mistakes_skin: "contrast"  # opciones: dark, mint, neon, contrast, air, default
-logo: "/assets/images/logo.png"
-
-author:
-  name: "Carlos Esteban Ortiz Espitia"
-  avatar: "/assets/images/avatar.jpg"
-  bio: "Ingeniero mecánico con MBA y formación en Data Analytics. Experiencia en minería, manufactura y telecomunicaciones. Enfocado en análisis estratégico, innovación y sostenibilidad."
-  location: "Colombia"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/EyS-Envios-Colombia"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/tuperfil"
-    - label: "Correo"
-      icon: "fas fa-envelope"
-      url: "mailto:tucorreo@dominio.com"
-
-# Colección de proyectos
 collections:
   projects:
     output: true
     permalink: /:collection/:name/
 
-# Paginación
-paginate: 6
-paginate_path: "/page:num/"
-
-# Markdown y código
-markdown: kramdown
-highlighter: rouge
-
-# Configuración visual
-defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      
-# Exclusiones
+# Exclude unnecessary files from the build
 exclude:
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "node_modules"
-  - "vendor"
-  - "README.md"
-  - "_site"
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - _site
+
