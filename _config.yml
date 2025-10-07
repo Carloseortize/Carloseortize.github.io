@@ -1,16 +1,36 @@
+# Información del sitio
 title: "Carlos Esteban Ortiz Espitia"
 description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad"
 theme: jekyll-theme-minimal
 
-# Navegación
-show_downloads: false
+# Navegación (opcional, se puede usar en tu header)
+nav:
+  - title: "Inicio"
+    url: "/"
+  - title: "Proyectos"
+    url: "/projects/"
+  - title: "Sobre mí"
+    url: "/about/"
+  - title: "Contacto"
+    url: "/contact/"
 
+# Colecciones
 collections:
   projects:
     output: true
     permalink: /:collection/:name/
 
-# Exclude unnecessary files from the build
+# Plugins necesarios para GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown y código
+markdown: kramdown
+highlighter: rouge
+
+# Exclusiones de archivos
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -18,4 +38,3 @@ exclude:
   - vendor
   - README.md
   - _site
-
