@@ -2,4 +2,82 @@ theme: jekyll-theme-minimal
 title: Carlos Esteban Ortiz Espitia
 description: Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad| Apasionado por la analítica de datos, la optimización de procesos 
  
+title: "Portafolio de __"
+name: "__"
+description: "Análisis de datos, sostenibilidad e innovación — explorando el impacto de los datos en los negocios."
+url: "[https://eys-envios-colombia.github.io](https://eys-envios-colombia.github.io)"  # reemplázalo por tu URL real
+baseurl: ""
+theme: "minimal-mistakes-jekyll"
+
+# Navegación
+
+nav:
+
+* title: "Inicio"
+  url: "/"
+* title: "Proyectos"
+  url: "/projects/"
+* title: "Sobre mí"
+  url: "/about/"
+* title: "Contacto"
+  url: "/contact/"
+
+# Estilo del tema
+
+minimal_mistakes_skin: "contrast"  # opciones: dark, mint, neon, contrast, air, default
+logo: "/assets/images/logo.png"
+author:
+name: "EyS Envios Colombia"
+avatar: "/assets/images/avatar.jpg"
+bio: "Ingeniero mecánico con MBA y formación en Data Analytics. Experiencia en minería, manufactura y telecomunicaciones. Enfocado en análisis estratégico, innovación y sostenibilidad."
+location: "Colombia"
+links:
+- label: "GitHub"
+icon: "fab fa-github"
+url: "[https://github.com/EyS-Envios-Colombia](https://github.com/EyS-Envios-Colombia)"
+- label: "LinkedIn"
+icon: "fab fa-linkedin"
+url: "[https://www.linkedin.com/in/tuperfil](https://www.linkedin.com/in/tuperfil)"
+- label: "Correo"
+icon: "fas fa-envelope"
+url: "mailto:tucorreo@dominio.com"
+
+# Plugins
+
+plugins:
+
+* jekyll-feed
+* jekyll-seo-tag
+* jekyll-sitemap
+* jekyll-archives
+* jekyll-paginate
+* jekyll-include-cache
+
+# Colección de proyectos
+
+collections:
+projects:
+output: true
+permalink: /:collection/:name/
+
+# Paginación
+
+paginate: 6
+paginate_path: "/page:num/"
+
+# Markdown y código
+
+markdown: kramdown
+highlighter: rouge
+
+# Exclusiones
+
+exclude:
+
+* "Gemfile"
+* "Gemfile.lock"
+* "node_modules"
+* "vendor"
+* "README.md"
+* "_site"
 
