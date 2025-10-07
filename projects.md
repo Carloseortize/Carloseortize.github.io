@@ -1,13 +1,14 @@
 ---
-layout: collection
+layout: default
 title: "Proyectos"
-collection: projects
-entries_layout: grid
-permalink: /projects/
 ---
-layout: collection
-title: "Proyectos"
-collection: projects
-entries_layout: grid
-permalink: /projects/
----
+<h1>Proyectos</h1>
+
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a><br>
+      {{ project.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
