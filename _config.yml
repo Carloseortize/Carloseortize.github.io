@@ -58,6 +58,16 @@ paginate_path: "/page:num/"
 markdown: kramdown
 highlighter: rouge
 
+# Configuración visual
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      
 # Exclusiones
 exclude:
   - "Gemfile"
