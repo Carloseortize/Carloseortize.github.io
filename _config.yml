@@ -1,10 +1,3 @@
-theme: jekyll-theme-minimal
-title: Carlos Esteban Ortiz Espitia
-description: Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad| Apasionado por la analítica de datos, la optimización de procesos 
- 
-title: "Portafolio de __"
-name: "__"
-description: "Análisis de datos, sostenibilidad e innovación — explorando el impacto de los datos en los negocios."
 url: "[https://eys-envios-colombia.github.io](https://eys-envios-colombia.github.io)"  # reemplázalo por tu URL real
 baseurl: ""
 theme: "minimal-mistakes-jekyll"
