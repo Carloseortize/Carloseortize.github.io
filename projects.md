@@ -7,8 +7,8 @@ title: "Proyectos"
 <ul>
   {% for project in site.projects %}
     <li>
-      <a href="{{ project.url | relative_url }}">{{ project.title }}</a><br>
-      {{ project.excerpt }}
+      <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+      <p>{{ project.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>
