@@ -1,40 +1,32 @@
-# Información del sitio
-title: "Carlos Esteban Ortiz Espitia"
-description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad"
-theme: jekyll-theme-minimal
+---
+layout: default
+---
 
-# Navegación (opcional, se puede usar en tu header)
-nav:
-  - title: "Inicio"
-    url: "/"
-  - title: "Proyectos"
-    url: "/projects/"
-  - title: "Sobre mí"
-    url: "/about/"
-  - title: "Contacto"
-    url: "/contact/"
+<h1>{{ site.title }}</h1>
+<p>{{ site.description }}</p>
 
-# Colecciones
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:name/
+<section id="about">
+  <h2>Sobre mí</h2>
+  <p>Soy Ingeniero Mecánico y Analista de Datos Junior Bilingüe, con más de 5 años de experiencia en sectores industriales, empresariales y de gestión. A lo largo de mi trayectoria he liderado proyectos técnicos y estratégicos enfocados en la mejora de procesos, eficiencia operativa y reducción de costos, siempre aportando soluciones con impacto real.</p>
+</section>
 
-# Plugins necesarios para GitHub Pages
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+<section id="projects">
+  <h2>Proyectos</h2>
+  <ul>
+    <li><a href="#">Proyecto 1</a> — Breve descripción</li>
+    <li><a href="#">Proyecto 2</a></li>
+    <li><a href="#">Proyecto 3</a></li>
+    <li><a href="#">Proyecto 4</a></li>
+    <li><a href="#">Proyecto 5</a></li>
+    <li><a href="#">Proyecto 6</a></li>
+    <li><a href="#">Proyecto 7</a></li>
+    <li><a href="#">Proyecto 8</a></li>
+    <li><a href="#">Proyecto 9</a></li>
+    <li><a href="#">Proyecto 10</a></li>
+  </ul>
+</section>
 
-# Markdown y código
-markdown: kramdown
-highlighter: rouge
-
-# Exclusiones de archivos
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
-  - _site
+<section id="contact">
+  <h2>Contacto</h2>
+  <p><a href="https://github.com/tu_usuario">GitHub</a> | <a href="https://linkedin.com/in/tu_perfil">LinkedIn</a> | <a href="mailto:tu_email@example.com">Correo</a></p>
+</section>
