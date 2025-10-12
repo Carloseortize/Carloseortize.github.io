@@ -20,6 +20,14 @@ collections:
     output: true
     permalink: /:collection/:name/
 
+#
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: default
+
 # ⚙️ Plugins compatibles con GitHub Pages
 plugins:
   - jekyll-feed
