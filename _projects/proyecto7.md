@@ -1,3 +1,8 @@
+---
+title: "ICE – Analizando el éxito de los videojuegos"
+description: "Identificar patrones que determinan el éxito de los juegos"
+date: 2025-06-03
+---
 🎮 **ICE – Analizando el éxito de los videojuegos**
 
 Esta aplicación explora datos históricos de videojuegos para **identificar patrones que determinan el éxito de los juegos** y planificar campañas publicitarias para 2017.
