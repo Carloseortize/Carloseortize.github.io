@@ -12,21 +12,31 @@ layout: default
 
 <section id="projects">
   <h2>Proyectos</h2>
-  <ul>
-    <li><a href="#">Proyecto 1</a> — Breve descripción</li>
-    <li><a href="#">Proyecto 2</a></li>
-    <li><a href="#">Proyecto 3</a></li>
-    <li><a href="#">Proyecto 4</a></li>
-    <li><a href="#">Proyecto 5</a></li>
-    <li><a href="#">Proyecto 6</a></li>
-    <li><a href="#">Proyecto 7</a></li>
-    <li><a href="#">Proyecto 8</a></li>
-    <li><a href="#">Proyecto 9</a></li>
-    <li><a href="#">Proyecto 10</a></li>
-  </ul>
+  {% if site.projects and site.projects.size > 0 %}
+    <ul>
+      {% for project in site.projects %}
+        <li>
+          <h3>
+            {% if project.link %}
+              <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+            {% else %}
+              <a href="{{ project.url }}">{{ project.title }}</a>
+            {% endif %}
+          </h3>
+          <p>{{ project.description | default: project.excerpt }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No hay proyectos disponibles en este momento.</p>
+  {% endif %}
 </section>
 
 <section id="contact">
   <h2>Contacto</h2>
-  <p><a href="https://github.com/tu_usuario">GitHub</a> | <a href="https://linkedin.com/in/tu_perfil">LinkedIn</a> | <a href="mailto:tu_email@example.com">Correo</a></p>
+  <p>
+    <a href="https://github.com/Carloseortize" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/Carloseortize" target="_blank">LinkedIn</a> |
+    <a href="mailto:tu_correo@ejemplo.com">Correo</a>
+  </p>
 </section>
