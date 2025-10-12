@@ -1,6 +1,7 @@
 ---
 title: "Explora y analiza datos de vehículos de manera interactiva"
-description: "Descubrir patrones en anuncios de coches en venta mediante gráficos interactivos"
+description: "Aplicación web interactiva desarrollada en Streamlit para explorar y analizar datos de anuncios de venta de coches. Permite visualizar distribuciones y relaciones entre variables como precio y kilometraje mediante gráficos dinámicos y personalizables.
+Herramientas: Python, Streamlit, Plotly Express, Pandas"
 link: "https://github.com/Carloseortize/Project_6"
 ---
 🚗 **Explora y analiza datos de vehículos de manera interactiva**
