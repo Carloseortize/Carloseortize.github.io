@@ -20,5 +20,6 @@ title: "Carlos Ortiz — Analista de Datos"
       <p>{{ project.description }}</p>
       <a href="{{ project.link }}" target="_blank">Ver proyecto →</a>
     </div>
+  
   {% endfor %}
 </div>
