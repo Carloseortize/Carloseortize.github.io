@@ -1,6 +1,8 @@
 ---
 title: " Model Fitness – Predicción de Cancelación de Clientes"
-description: "Predicción de cancelación de clientes y diseñar estrategias de retención basadas en datos"
+description: |
+  Proyecto orientado a predecir la cancelación de clientes en una cadena de gimnasios mediante análisis exploratorio, segmentación y modelado predictivo. Se identificaron factores de retención y patrones de comportamiento para diseñar estrategias de fidelización.
+  **Herramientas:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, KMeans.
 link: "https://github.com/Carloseortize/Forecasting_-_Predictions"
 ---
 
