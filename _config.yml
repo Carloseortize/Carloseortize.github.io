@@ -1,25 +1,22 @@
 # 🧩 Información general del sitio
 title: "Carlos Esteban Ortiz Espitia"
-description: "Data Analyst | Mechanical Engineer | Cybersecurity | MBA"
+#logo: "/assets/profile.jpg"
+description: |
+  Data Analyst | Mechanical Engineer | Cybersecurity | MBA  
+  <p style='margin-top:10px; font-size:0.95em; color:#444;'>
+  Profesional bilingüe con más de 5 años de experiencia en sectores industriales, empresariales y de gestión.  
+  Apasionado por el análisis de datos, la innovación tecnológica y la mejora continua.  
+  Actualmente enfocado en desarrollar soluciones basadas en datos para optimizar procesos y apoyar la toma de decisiones estratégicas.
+  </p>
 
-about: |
-  Soy Ingeniero Mecánico y Analista de Datos Junior Bilingüe, con más de 5 años de experiencia en sectores industriales, empresariales y de gestión. A lo largo de mi trayectoria he liderado proyectos técnicos y estratégicos enfocados en la mejora de procesos, eficiencia operativa y reducción de costos, siempre aportando soluciones con impacto real.
-  
-  Me defino por una visión estratégica, capacidad de liderar equipos diversos e impulsar la innovación combinando tecnología, análisis de datos y liderazgo.
-  Especializado en Ciberseguridad y Análisis de Datos, domino herramientas como Python, SQL, Pandas, Numpy, Tableau, Power BI, Streamlit, Jupyter Notebook, Git/GitHub y Excel avanzado. He aplicado técnicas de machine learning (regresión, clasificación y clustering), análisis estadístico y visualización de datos para generar insights accionables que impulsan la toma de decisiones.
+# 🌐 Enlaces visibles en la barra lateral
+email: "carloseortize@gmail.com"
+github: "https://github.com/Carloseortize"
+linkedin: "https://www.linkedin.com/in/carloseortize"
+resume: "https://github.com/Carloseortize/CV"
 
+# 🖼️ Tema visual
 theme: jekyll-theme-minimal
-
-# 🌐 Navegación del sitio
-nav:
-  - title: "Inicio"
-    url: "/"
-  - title: "Proyectos"
-    url: "/#projects"
-  - title: "Sobre mí"
-    url: "/#about"
-  - title: "Contacto"
-    url: "/#contact"
 
 # 📂 Colección de proyectos
 collections:
@@ -27,7 +24,6 @@ collections:
     output: true
     permalink: /:collection/:name/
 
-# 🧱 Valores por defecto
 defaults:
   - scope:
       path: ""
@@ -45,7 +41,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# 🚫 Archivos excluidos del sitio
+# 🚫 Archivos que no deben incluirse en el sitio generado
 exclude:
   - Gemfile
   - Gemfile.lock
