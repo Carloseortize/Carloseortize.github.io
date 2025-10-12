@@ -1,6 +1,8 @@
 ---
 title: "Telecomunicaciones CallMeMaybe – Análisis de Operadores"
-description: "Análisis de los comportamientos de los operadores de la empresa ficticia CallMeMaybe"
+description: |
+  oportunidades de mejora en la atención al cliente. Se diseñó un dashboard interactivo que resume métricas clave de tiempo de respuesta, efectividad y calidad del servicio.
+**Herramientas:** Python, Pandas, Matplotlib, Seaborn, Tableau
 link: "https://github.com/Carloseortize/Automation"
 ---
 # Telecomunicaciones CallMeMaybe – Análisis de Operadores
