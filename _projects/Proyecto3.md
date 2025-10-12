@@ -1,7 +1,7 @@
 ---
 title: "Explora y analiza datos de vehículos de manera interactiva"
 description: "Descubrir patrones en anuncios de coches en venta mediante gráficos interactivos"
-date: 2025-07-03
+link: "https://github.com/Carloseortize/Project_6"
 ---
 🚗 **Explora y analiza datos de vehículos de manera interactiva**
 
