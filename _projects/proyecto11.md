@@ -1,3 +1,8 @@
+---
+Title: "Telecomunicaciones CallMeMaybe – Análisis de Operadores"
+Dscription: "Análisis de los comportamientos de los operadores de la empresa ficticia CallMeMaybe"
+Link: "https://github.com/Carloseortize/Automation"
+---
 # Telecomunicaciones CallMeMaybe – Análisis de Operadores
 
 En este proyecto, como **Analista de Datos**, trabajé en el análisis de los comportamientos de los operadores de la empresa ficticia *CallMeMaybe*. El objetivo principal fue **identificar patrones de eficiencia y oportunidades de mejora** a partir de datos históricos de llamadas y mensajes.
