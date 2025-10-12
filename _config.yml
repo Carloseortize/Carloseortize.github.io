@@ -1,21 +1,19 @@
-# 🧩 Información general del sitio
+# 🧩 Información general del sitio 
 title: "Carlos Esteban Ortiz Espitia"
-#logo: "/assets/profile.jpg"
+logo: "/assets/profile.jpg"
 description: |
-  Data Analyst | Mechanical Engineer | Cybersecurity | MBA  
-  <p style='margin-top:10px; font-size:0.95em; color:#444;'>
-  Profesional bilingüe con más de 5 años de experiencia en sectores industriales, empresariales y de gestión.  
-  Apasionado por el análisis de datos, la innovación tecnológica y la mejora continua.  
-  Actualmente enfocado en desarrollar soluciones basadas en datos para optimizar procesos y apoyar la toma de decisiones estratégicas.
-  </p>
+  <div style="text-align: justify;">
+  <strong>Data Analyst | Mechanical Engineer | Cybersecurity | MBA</strong><br><br>
+  Soy Ingeniero Mecánico y Analista de Datos Junior Bilingüe, con más de 5 años de experiencia en sectores industriales, empresariales y de gestión.
+  A lo largo de mi trayectoria he liderado proyectos técnicos y estratégicos enfocados en la mejora de procesos, eficiencia operativa y reducción de costos, aportando soluciones con impacto real.<br><br>
+  Me defino por una visión estratégica, capacidad de liderar equipos diversos e impulsar la innovación combinando tecnología, análisis de datos y liderazgo.
+  Especializado en Ciberseguridad y Análisis de Datos, domino herramientas como Python, SQL, Pandas, Numpy, Tableau, Power BI, Streamlit, Jupyter Notebook, Git/GitHub y Excel avanzado.
+  He aplicado técnicas de machine learning (regresión, clasificación y clustering), análisis estadístico y visualización de datos para generar insights accionables que impulsan la toma de decisiones.<br><br>
+  🔗 <a href="https://github.com/Carloseortize" target="_blank">GitHub</a> |
+  <a href="https://www.linkedin.com/in/carlos-esteban-ortiz-espitia/" target="_blank">LinkedIn</a> |
+  <a href="mailto:carloseortize@gmail.com">Correo</a>
+  </div>
 
-# 🌐 Enlaces visibles en la barra lateral
-email: "carloseortize@gmail.com"
-github: "https://github.com/Carloseortize"
-linkedin: "https://www.linkedin.com/in/carloseortize"
-resume: "https://github.com/Carloseortize/CV"
-
-# 🖼️ Tema visual
 theme: jekyll-theme-minimal
 
 # 📂 Colección de proyectos
@@ -23,13 +21,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: default
 
 # ⚙️ Plugins compatibles con GitHub Pages
 plugins:
@@ -41,7 +32,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# 🚫 Archivos que no deben incluirse en el sitio generado
+# 🚫 Archivos que no se deben incluir
 exclude:
   - Gemfile
   - Gemfile.lock
