@@ -1,7 +1,7 @@
 ---
-title: "Showz – Optimización de Marketing Digital"
-description: "Analiza visitas, pedidos y campañas publicitarias para maximizar adquisición y retención de clientes"
-link: "https://github.com/Carloseortize/Business_Analytics"
+Title: "Showz – Optimización de Marketing Digital"
+Description: "Analiza visitas, pedidos y campañas publicitarias para maximizar adquisición y retención de clientes"
+Link: "https://github.com/Carloseortize/Business_Analytics"
 ---
 📊 **Showz – Optimización de Marketing Digital**
 
