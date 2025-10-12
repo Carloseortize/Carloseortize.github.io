@@ -1,7 +1,7 @@
 ---
-Title: " Model Fitness – Predicción de Cancelación de Clientes"
-Description: "Predicción de cancelación de clientes y diseñar estrategias de retención basadas en datos"
-Link: "https://github.com/Carloseortize/Forecasting_-_Predictions"
+title: " Model Fitness – Predicción de Cancelación de Clientes"
+description: "Predicción de cancelación de clientes y diseñar estrategias de retención basadas en datos"
+link: "https://github.com/Carloseortize/Forecasting_-_Predictions"
 ---
 
 # Model Fitness – Predicción de Cancelación de Clientes
