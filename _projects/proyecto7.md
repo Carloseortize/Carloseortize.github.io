@@ -1,6 +1,8 @@
 ---
 title: "ICE – Analizando el éxito de los videojuegos"
-description: "Identificar patrones que determinan el éxito de los juegos"
+description: |
+    Priorización de hipótesis para mejorar el rendimiento y la monetización de videojuegos mediante los frameworks ICE y RICE. Se evaluó impacto, facilidad y alcance de cada idea, para seleccionar la más prometedora y validar su efecto con análisis estadístico.
+    **Herramientas:** *Python, Pandas, NumPy, Matplotlib, Seaborn, Excel, SciPy*
 link: "https://github.com/Carloseortize/Software_Development_Tools"
 ---
 🎮 **ICE – Analizando el éxito de los videojuegos**
