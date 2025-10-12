@@ -1,7 +1,7 @@
 ---
-Title: "Explorando los hábitos de compra con Instacart"
-Description: "Análisis de datos revela los patrones detrás de miles de pedidos en **Instacart**"
-Link: "https://github.com/Carloseortize/Data_Wrangling"
+title: "Explorando los hábitos de compra con Instacart"
+description: "Análisis de datos revela los patrones detrás de miles de pedidos en **Instacart**"
+link: "https://github.com/Carloseortize/Data_Wrangling"
 ---
 🍎 **Explorando los hábitos de compra con Instacart** 🛒
 
