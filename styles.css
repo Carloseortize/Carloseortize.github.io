@@ -6,6 +6,8 @@ body {
   background-color: #f9fafb;
   color: #1a1a1a;
   padding: 0 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .profile {
@@ -31,12 +33,15 @@ h2 {
   padding-bottom: 5px;
   margin-bottom: 25px;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 25px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-card {
@@ -59,12 +64,15 @@ h2 {
   color: #007acc;
   font-size: 1.2em;
   margin-top: 0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-card p {
   color: #333;
   margin-bottom: 15px;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-card a {
@@ -77,10 +85,16 @@ h2 {
   font-size: 0.9em;
   transition: background 0.2s ease;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-card a:hover {
   background: #005fa3;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-p { text-align: justify; }
+p { 
+  text-align: justify;
+  text-justify: inter-word; 
+}
