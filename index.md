@@ -21,5 +21,8 @@ Mi experiencia técnica y visión estratégica se transformaron en una pasión p
       <p class="project-description">{{ project.description | markdownify }}</p>
       <a href="{{ project.link }}" target="_blank">Ver proyecto →</a>
     </div>
+    <p> </p>
+    <p> </p>
+  <p> </p>
   {% endfor %}
 </div>
