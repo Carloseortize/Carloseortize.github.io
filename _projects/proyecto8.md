@@ -1,3 +1,8 @@
+---
+title: "Zuber – Analizando la movilidad urbana en Chicago"
+description: "Explora patrones de viajes, demanda por zonas y el impacto del clima en la duración de los viajes."
+date: 2025-05-03
+---
 🚖 **Zuber – Analizando la movilidad urbana en Chicago**
 
 Explora patrones de viajes, demanda por zonas y el impacto del clima en la duración de los viajes.
