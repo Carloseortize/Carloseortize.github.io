@@ -1,6 +1,12 @@
 # 🧩 Información general del sitio 
 title: "Carlos Esteban Ortiz Espitia"
-description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad"
+description: "Data Analyst | Mechanical engineer | Cybersecurity | MBA"
+about: |
+Soy Ingeniero Mecánico y Analista de Datos Junior Bilingüe, con más de 5 años de experiencia en sectores industriales, empresariales y de gestión. A lo largo de mi trayectoria he liderado proyectos técnicos y estratégicos enfocados en la mejora de procesos, eficiencia operativa y reducción de costos, siempre aportando soluciones con impacto real.
+
+Me defino por una visión estratégica, capacidad de liderar equipos diversos e impulsar la innovación combinando tecnología, análisis de datos y liderazgo.
+Especializado en Ciberseguridad y Análisis de Datos, domino herramientas como Python, SQL, Pandas, Numpy, Tableau, Power BI, Streamlit, Jupyter Notebook, Git/GitHub y Excel avanzado. He aplicado técnicas de machine learning (regresión, clasificación y clustering), análisis estadístico y visualización de datos para generar insights accionables que impulsan la toma de decisiones.
+
 theme: jekyll-theme-minimal
 
 # 🌐 Navegación del sitio (opcional, útil si usas un layout con menú)
