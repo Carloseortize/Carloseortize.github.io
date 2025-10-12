@@ -1,3 +1,8 @@
+---
+title: "Explora y analiza datos de vehículos de manera interactiva"
+description: "Descubrir patrones en anuncios de coches en venta mediante **gráficos interactivos**"
+date: 2025-07-03
+---
 🚗 **Explora y analiza datos de vehículos de manera interactiva**
 
 Esta aplicación web permite descubrir patrones en anuncios de coches en venta mediante **gráficos interactivos**. Con **Streamlit** y **Plotly**, los usuarios pueden visualizar fácilmente la relación entre **precio** y **kilometraje**, así como explorar la distribución de datos del odómetro.
