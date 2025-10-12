@@ -1,6 +1,6 @@
 ---
 title: "Explora y analiza datos de vehículos de manera interactiva"
-description: "Descubrir patrones en anuncios de coches en venta mediante **gráficos interactivos**"
+description: "Descubrir patrones en anuncios de coches en venta mediante gráficos interactivos"
 date: 2025-07-03
 ---
 🚗 **Explora y analiza datos de vehículos de manera interactiva**
