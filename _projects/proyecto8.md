@@ -1,7 +1,7 @@
 ---
-title: "Zuber – Analizando la movilidad urbana en Chicago"
-description: "Explora patrones de viajes, demanda por zonas y el impacto del clima en la duración de los viajes."
-link: "https://github.com/Carloseortize/SQL_"
+Title: "Zuber – Analizando la movilidad urbana en Chicago"
+Description: "Explora patrones de viajes, demanda por zonas y el impacto del clima en la duración de los viajes."
+Link: "https://github.com/Carloseortize/SQL_"
 ---
 🚖 **Zuber – Analizando la movilidad urbana en Chicago**
 
