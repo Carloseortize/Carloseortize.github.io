@@ -1,7 +1,7 @@
 ---
-Title: "Megaline — ¿Cuál es la mejor tarifa?"
-Description: "Identificar cuál de las tarifas genera mayores ingresos"
-Link: "https://github.com/Carloseortize/Statistical_Analysis_of_Data"
+title: "Megaline — ¿Cuál es la mejor tarifa?"
+description: "Identificar cuál de las tarifas genera mayores ingresos"
+link: "https://github.com/Carloseortize/Statistical_Analysis_of_Data"
 ---
  📡 **¿Surf o Ultimate? Descubre cuál plan genera más ingresos para Megaline.** 💰
 
