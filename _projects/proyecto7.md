@@ -1,7 +1,7 @@
 ---
 title: "ICE – Analizando el éxito de los videojuegos"
 description: "Identificar patrones que determinan el éxito de los juegos"
-date: 2025-06-03
+link: "https://github.com/Carloseortize/Software_Development_Tools"
 ---
 🎮 **ICE – Analizando el éxito de los videojuegos**
 
