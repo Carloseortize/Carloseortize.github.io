@@ -4,9 +4,10 @@ title: "Carlos Ortiz — Analista de Datos"
 ---
 
 <div class="profile">
-  <h1>Carlos Ortiz</h1>
-  <p>Ingeniero Mecánico & Analista de Datos Junior Bilingüe</p>
-  <p>+5 años de experiencia en sectores industriales, empresariales y de gestión. Actualmente enfocado en análisis de datos, optimización de procesos y visualización de información para la toma de decisiones estratégicas.</p>
+  <h1>De la ingeniería al análisis de datos</h1>
+  <p>Después de varios años trabajando como Ingeniero Mecánico y liderando proyectos en eficiencia operativa, mantenimiento y mejora de procesos, decidí dar un giro hacia el mundo del análisis de datos.
+Mi experiencia técnica y visión estratégica se transformaron en una pasión por descubrir patrones, optimizar decisiones y crear soluciones basadas en datos.</p>
+  <p>A continuación encontrarás una selección de proyectos que reflejan mi evolución en este nuevo camino, combinando lógica, curiosidad y creatividad para generar valor a través del análisis de la información.</p>
 </div>
 
 <hr>
@@ -20,7 +21,8 @@ title: "Carlos Ortiz — Analista de Datos"
       <p>{{ project.description }}</p>
       <a href="{{ project.link }}" target="_blank">Ver proyecto →</a>
     </div>
-    <p></p>
-    <p></p>
+    <p> </p>
+    <p> </p>
+  <p> </p>
   {% endfor %}
 </div>
