@@ -30,6 +30,7 @@ h2 {
   display: inline-block;
   padding-bottom: 5px;
   margin-bottom: 25px;
+  text-align: justify;
 }
 
 .projects {
@@ -46,6 +47,7 @@ h2 {
   transition: all 0.25s ease-in-out;
   transform: scale(1);
   cursor: pointer;
+  text-align: justify;
 }
 
 .project-card:hover {
@@ -62,6 +64,7 @@ h2 {
 .project-card p {
   color: #333;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .project-card a {
@@ -73,6 +76,7 @@ h2 {
   border-radius: 8px;
   font-size: 0.9em;
   transition: background 0.2s ease;
+  text-align: justify;
 }
 
 .project-card a:hover {
