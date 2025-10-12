@@ -16,23 +16,38 @@ Mi experiencia técnica y visión estratégica se transformaron en una pasión p
   <h2>Sobre mí</h2>
 
   <div class="tabs">
-    <button class="tab-button" onclick="openTab(event, 'educacion')">Educación</button>
-    <button class="tab-button" onclick="openTab(event, 'experiencia')">Experiencia</button>
+    <button class="tab-button" onclick="openTab(event, 'formacion')">Formación Académica</button>
+    <button class="tab-button" onclick="openTab(event, 'experiencia')">Experiencia Profesional</button>
   </div>
 
-  <div id="educacion" class="tab-content">
+  <div id="formacion" class="tab-content">
     <ul>
-      <li>MBA – Gestión Empresarial, Universidad X, 2018</li>
-      <li>Ingeniería Mecánica, Universidad Y, 2015</li>
-      <li>Certificaciones: Python, SQL, Power BI, Tableau, Streamlit</li>
+      <li>MBA en Alta Dirección Empresarial – Universidad Catolica de Avila, España</li>
+      <li>Ingeniería Mecánica – Universidad De América, Colombia</li>
+      <li>Certificación en Análisis de Datos – TripleTen</li>
+      <li>Certificación en Ciberseguridad – Google (beca)</li>
     </ul>
   </div>
 
   <div id="experiencia" class="tab-content">
     <ul>
-      <li>Analista de Datos Junior, Empresa Z, 2024 - Actual</li>
-      <li>Ingeniero Mecánico, Empresa A, 2017 - 2023</li>
-      <li>Practicante en Minería, Empresa B, 2015 - 2016</li>
+      <li>
+        <strong>Fundador y Director – Empresa de Economía Circular</strong> <br>
+        2021 - 2025, Bogotá, Colombia<br>
+        Lideré operaciones, logística y alianzas estratégicas.<br>
+        Implementé soluciones tecnológicas y de análisis de procesos para optimizar la cadena de suministro.<br>
+        Gestioné compras y supervisé la producción, mejorando eficiencia y calidad.<br>
+        Diseñé maquinaria y sistemas de control de calidad basados en datos.<br>
+        <em>Logros: aumento del 20% en eficiencia de procesos y 40% en control de inventario.</em>
+      </li>
+      <li>
+        <strong>Gerente de Producción y Operaciones</strong> <br>
+        2018 – 2019, París, Francia<br>
+        Preparación y control de pedidos, asegurando eficiencia y precisión.<br>
+        Supervisión de personal y producción para optimizar recursos y productividad.<br>
+        Operación y control de maquinaria especializada.<br>
+        <em>Logros: aumento del 10% en cumplimiento de entregas y reducción del 25% en errores de empaque.</em>
+      </li>
     </ul>
   </div>
 </section>
@@ -87,6 +102,7 @@ for (var i = 0; i < tabcontent.length; i++) {
   margin-top: 15px;
   border-left: 3px solid #007acc;
   padding-left: 15px;
+  text-align: justify;
 }
 </style>
 
