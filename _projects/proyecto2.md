@@ -1,6 +1,8 @@
 ---
 title: "Megaline — ¿Cuál es la mejor tarifa?"
-description: "Identificar cuál de las tarifas genera mayores ingresos"
+description: |
+  Evaluación de planes tarifarios con base en datos históricos para determinar cuál genera mayor rentabilidad. Incluye limpieza de datos, análisis de consumo promedio y comparación de ingresos proyectados.
+  **Herramientas:** *Python, Pandas, NumPy, Matplotlib.*
 link: "https://github.com/Carloseortize/Statistical_Analysis_of_Data"
 ---
  📡 **¿Surf o Ultimate? Descubre cuál plan genera más ingresos para Megaline.** 💰
