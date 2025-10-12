@@ -1,3 +1,8 @@
+---
+title: "Gran Tienda Online – Priorización de Hipótesis y Test A/B"
+description: "trabajé como analista de datos para una gran tienda online, enfocándome en aumentar los ingresos y optimizar la experiencia del usuario."
+link: "https://github.com/Carloseortize/Data-Driven_Business_Decision_Making"
+---
 # Gran Tienda Online – Priorización de Hipótesis y Test A/B
 
 ## 🌟 Resumen del Proyecto
