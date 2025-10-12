@@ -98,3 +98,8 @@ p {
   text-align: justify;
   text-justify: inter-word; 
 }
+
+.project-description {
+  white-space: pre-line;
+  text-align: justify;
+}
