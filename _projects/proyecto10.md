@@ -2,7 +2,7 @@
 title: "Gran Tienda Online – Priorización de Hipótesis y Test A/B"
 description: |
   Análisis estadístico de un experimento A/B para evaluar el impacto de distintas hipótesis de mejora en la conversión de un e-commerce. Incluye validación de resultados mediante pruebas de significancia y priorización de hipótesis con base en datos.
-  Herramientas: Python, Pandas, NumPy, Scipy, Matplotlib, Seaborn.
+  **Herramientas:** Python, Pandas, NumPy, Scipy, Matplotlib, Seaborn.
 link: "https://github.com/Carloseortize/Data-Driven_Business_Decision_Making"
 ---
 # Gran Tienda Online – Priorización de Hipótesis y Test A/B
