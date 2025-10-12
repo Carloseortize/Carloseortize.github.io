@@ -1,6 +1,8 @@
 ---
 title: "Explorando los hábitos de compra con Instacart"
-description: "Análisis de datos revela los patrones detrás de miles de pedidos en **Instacart**"
+description: |
+    Análisis de patrones de compra y comportamiento del consumidor en la plataforma Instacart. Se exploraron variables como frecuencia de compra, productos más populares y hábitos de recompra por cliente.
+    **Herramientas:** *Python, Pandas, Seaborn, Matplotlib.*
 link: "https://github.com/Carloseortize/Data_Wrangling"
 ---
 🍎 **Explorando los hábitos de compra con Instacart** 🛒
