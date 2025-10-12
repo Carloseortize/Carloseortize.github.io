@@ -1,6 +1,8 @@
 ---
 title: "Zuber – Analizando la movilidad urbana en Chicago"
-description: "Explora patrones de viajes, demanda por zonas y el impacto del clima en la duración de los viajes."
+description: |
+    Análisis de viajes urbanos para comprender las preferencias de los pasajeros y el impacto de factores externos como el clima en la duración de los viajes. Se evaluó la competencia y se propusieron estrategias de optimización del servicio.
+    **Herramientas:** *Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy.*
 link: "https://github.com/Carloseortize/SQL_"
 ---
 🚖 **Zuber – Analizando la movilidad urbana en Chicago**
