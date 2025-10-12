@@ -1,42 +1,41 @@
----
-layout: default
----
+# 🧩 Información general del sitio 
+title: "Carlos Esteban Ortiz Espitia"
+description: "Analista de Datos | MBA | Ingeniero Mecánico | Ciberseguridad | Innovación y Sostenibilidad"
+theme: jekyll-theme-minimal
 
-<h1>{{ site.title }}</h1>
-<p>{{ site.description }}</p>
+# 🌐 Navegación del sitio (opcional, útil si usas un layout con menú)
+nav:
+  - title: "Inicio"
+    url: "/"
+  - title: "Proyectos"
+    url: "/#projects"
+  - title: "Sobre mí"
+    url: "/#about"
+  - title: "Contacto"
+    url: "/#contact"
 
-<section id="about">
-  <h2>Sobre mí</h2>
-  <p>Soy Ingeniero Mecánico y Analista de Datos Junior Bilingüe, con más de 5 años de experiencia en sectores industriales, empresariales y de gestión. A lo largo de mi trayectoria he liderado proyectos técnicos y estratégicos enfocados en la mejora de procesos, eficiencia operativa y reducción de costos, siempre aportando soluciones con impacto real.</p>
-</section>
+# 📂 Colección de proyectos
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
 
-<section id="projects">
-  <h2>Proyectos</h2>
-  {% if site.projects and site.projects.size > 0 %}
-    <ul>
-      {% for project in site.projects %}
-        <li>
-          <h3>
-            {% if project.link %}
-              <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-            {% else %}
-              <a href="{{ project.url }}">{{ project.title }}</a>
-            {% endif %}
-          </h3>
-          <p>{{ project.description | default: project.excerpt }}</p>
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p>No hay proyectos disponibles en este momento.</p>
-  {% endif %}
-</section>
+# ⚙️ Plugins compatibles con GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-<section id="contact">
-  <h2>Contacto</h2>
-  <p>
-    <a href="https://github.com/Carloseortize" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/Carloseortize" target="_blank">LinkedIn</a> |
-    <a href="mailto:tu_correo@ejemplo.com">Correo</a>
-  </p>
-</section>
+# 🧾 Markdown y resaltado de código
+markdown: kramdown
+highlighter: rouge
+
+# 🚫 Archivos que no se deben incluir en el sitio generado
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - _site
+  - LICENSE
