@@ -1,6 +1,8 @@
 ---
 title: "Showz – Optimización de Marketing Digital"
-description: "Analiza visitas, pedidos y campañas publicitarias para maximizar adquisición y retención de clientes"
+description: |
+    Estudio del comportamiento de usuarios y efectividad de campañas publicitarias mediante análisis de tráfico web, métricas de conversión, CAC y LTV. Se identificaron fuentes más rentables y se propusieron estrategias de fidelización.
+    **Herramientas:** *Python, Pandas, NumPy, Matplotlib, Seaborn, Excel*
 link: "https://github.com/Carloseortize/Business_Analytics"
 ---
 📊 **Showz – Optimización de Marketing Digital**
