@@ -1,4 +1,3 @@
-
 ---
 Title: " Model Fitness – Predicción de Cancelación de Clientes"
 Description: "Predicción de cancelación de clientes y diseñar estrategias de retención basadas en datos"
